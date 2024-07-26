@@ -70,6 +70,26 @@ in Python.
 **Note: Only statement and branch coverage were provided, as the tool does not support condition coverage**
 
 ## How to Run ⚙️
+1. Download the SentimentAnalysis.py file.
+```
+ git clone https://github.com/SalwaSh/SE463-Sentiment-Analysis-Testing.git
+```
+2. Install the coverage package:
+```
+pip install coverage
+```
+3. Run the code using the following command:
+```
+converage run SentimentAnlysis.py 
+```
+4. To see a short coverage report, use the following command:
+```
+converage report -m
+```
+5. To see a nicer presentation of the coverage report, use the following command:
+```
+coverage html
+```
 
 ## Contributors ✍️
 

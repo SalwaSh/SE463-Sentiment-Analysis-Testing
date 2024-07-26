@@ -1,40 +1,75 @@
 # Sentiment Analysis 😄📊
 
-<p align="justify">
 Our sentiment analysis software is a simple simulation for natural language processing 
 technique that uses several if condition statements to automatically classify the 
 sentiment of a given text into positive, negative, or neutral categories
 
-
+### Project Objective 🎯
 The purpose of this project is to demonstrate our knowledge of Software Testing and 
 Quality Assurance. To accomplish this, we will be utilizing dynamic testing as one of 
 our testing techniques to measure code coverage. We will design our test plans, create 
 test suites, and perform test coverage both manually and automatically. To compare the 
 results, we will evaluate test suite coverage using the well-known "Coverage.py" library 
-in Python. All of these concepts will be done side by side with improving our abilities 
-to operate well as team players or leaders. Also, we will present the outcomes of the 
-testing and quality assurance audit in a professional manner, both orally and in writing 
-form.
-<p align="justify">
+in Python. 
 
-our testing plan 
-Testing Type Software Functionality Testing
-Testing Strategy Top-Down Approach
-Testing Level System Testing
-Testing Technique Dynamic Testing
-Category of Testing Technique White-Box Testing (Structure-Based)
+### Testing Plan 📑
+<table>
+  <thead>
+    <tr>
+      <th>Testing Strategy</th>
+      <th>Testing Level</th>
+      <th>Testing Technique</th>
+      <th>Category of Testing Technique</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Top-Down Approach</td>
+      <td>System Testing</td>
+      <td>Dynamic Testing</td>
+      <td>White-Box Testing (Structure-Based)</td>
+    </tr>
+  </tbody>
+</table>
 
-Coverage Criteria: Statement VS Branch VS Condition
+## Example: Coverage Criteria (Statement, Branch, Condition) 🏆
 
-output:
-Test Case 01:
-![image](https://github.com/user-attachments/assets/ee145bd0-47b0-4cee-b5f5-21eaea4edf52)
+**Test Case 01:**
+- I absolutely love this new car! Driving it brings me so much joy and I am so excited to take it on a road trip this weekend.
 
+**Output:** 
+- Positive
+- The percentage of positive words in the text is: 11.11%
+- The percentage of negative words in the text is: 0.0 %
+- The percentage of neutral words in the text is: 0.0 % 
+
+### A. Manual Testing 🔍
+
+1. Statement Coverage = Number of Executed Statements / Total Number of Statement *100 
+  ```
+ = (27 / 37) ∗ 100 = 72.9%
+  ```
+2. Branch Coverage = Number of Executed Branches / Total Number of Branches *100 
+ ```
+ = (7 / 14) ∗ 100 = 50%
+ ```
+3. Condition Coverage = Number of Executed Operands / Total Number of Operands *100 
+ ```
+  = ( 8 / 20 ) ∗ 100 = 40%
+ ```
+**Note: For more details on how they were calculated, refer to the report**
+
+### B. Automatic Testing (Coverage.py) 💻
+
+1. Statement Coverage
 ![image](https://github.com/user-attachments/assets/805fa31d-9d46-45ab-9234-0e3d7d3fd767)
 
+2. Branch Coverage
 ![image](https://github.com/user-attachments/assets/037d5e0d-1a55-4915-85b4-182803b1a2ea)
 
+**Note: Only statement and branch coverage were provided, as the tool does not support condition coverage**
 
+## How to Run ⚙️
 
 ## Contributors ✍️
 

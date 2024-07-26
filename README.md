@@ -34,10 +34,10 @@ in Python.
 
 ## Example: Coverage Criteria (Statement, Branch, Condition) 🏆
 
-**Test Case 01:**
+**Test Case :**
 - I absolutely love this new car! Driving it brings me so much joy and I am so excited to take it on a road trip this weekend.
 
-**Output:** 
+**Output :** 
 - Positive
 - The percentage of positive words in the text is: 11.11%
 - The percentage of negative words in the text is: 0.0 %
